@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"maps"
 )
 
 func main() {
@@ -30,8 +29,8 @@ func main() {
 	// fmt.Println(m)
 
 	//create map in short
-	// m:=map[string]int{"price": 40, "item": 5, "bill" : 500}
-	// fmt.Println(m)
+	m:=map[string]int{"price": 40, "item": 5, "bill" : 500}
+	fmt.Println(m)
 
 	// how to check element are present in the map
 	r, ok :=m["price"]
