@@ -33,7 +33,7 @@ func main() {
 	fmt.Println(m)
 
 	// how to check element are present in the map
-	r, ok :=m["price"]
+	r, ok :=m["price"]   //r->value of price key
 	fmt.Println(r)  //it gives value and "ok" gives trues and false
 	if ok {
 		fmt.Println("all ok")
@@ -44,10 +44,4 @@ func main() {
 	// m:=map[string]int{"price": 40, "item": 5, "bill" : 500}
     // m1:=map[string]int{"price": 40, "item": 5, "bill" : 500}
 	// fmt.Println(maps.Equal(m,m1))  //true
-
-
-	
-
-
-
 }
